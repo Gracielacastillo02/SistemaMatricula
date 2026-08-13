@@ -9,12 +9,12 @@ package sistemamatricula;
  * @author valem
  */
 public class Profesor {
-    String nom;
-    int cedula;
-    String correo;
-    String direccion;
-    String materia;
-    int numTelefono;
+    private String nom;
+    private int cedula;
+    private String correo;
+    private String direccion;
+    private String materia;
+    private int numTelefono;
 
     public Profesor(String nom, int cedula, String correo, String direccion, String materia, int numTelefono) {
         this.nom = nom;
